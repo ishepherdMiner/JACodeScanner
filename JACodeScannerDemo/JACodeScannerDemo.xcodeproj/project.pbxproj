@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967E91BB209030B8004AE89A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967E91BA209030B8004AE89A /* AppDelegate.m */; };
+		967E91BE209030B8004AE89A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967E91BD209030B8004AE89A /* ViewController.m */; };
+		967E91C1209030B8004AE89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967E91BF209030B8004AE89A /* Main.storyboard */; };
+		967E91C3209030BB004AE89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967E91C2209030BB004AE89A /* Assets.xcassets */; };
+		967E91C6209030BB004AE89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967E91C4209030BB004AE89A /* LaunchScreen.storyboard */; };
+		967E91C9209030BB004AE89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967E91C8209030BB004AE89A /* main.m */; };
+		967E91D3209030BB004AE89A /* JACodeScannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967E91D2209030BB004AE89A /* JACodeScannerDemoTests.m */; };
+		967E91DE209030BB004AE89A /* JACodeScannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 967E91DD209030BB004AE89A /* JACodeScannerDemoUITests.m */; };
+		9F15DA33F64B07E57C7EDDCE /* Pods_JACodeScannerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19DF79E755ABB074A0D0B49 /* Pods_JACodeScannerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967E91CF209030BB004AE89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967E91AE209030B8004AE89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967E91B5209030B8004AE89A;
+			remoteInfo = JACodeScannerDemo;
+		};
+		967E91DA209030BB004AE89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967E91AE209030B8004AE89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967E91B5209030B8004AE89A;
+			remoteInfo = JACodeScannerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C6C705A34738C757DB4B9D /* libPods-JACodeScannerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JACodeScannerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD46DA02BC7826087576D1C /* Pods-JACodeScannerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JACodeScannerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JACodeScannerDemo/Pods-JACodeScannerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		76D4AD586DE08D2AD492C2B8 /* libPods-JACodeScannerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JACodeScannerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E91B6209030B8004AE89A /* JACodeScannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JACodeScannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E91B9209030B8004AE89A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		967E91BA209030B8004AE89A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		967E91BC209030B8004AE89A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		967E91BD209030B8004AE89A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		967E91C0209030B8004AE89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		967E91C2209030BB004AE89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		967E91C5209030BB004AE89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		967E91C7209030BB004AE89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967E91C8209030BB004AE89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967E91CE209030BB004AE89A /* JACodeScannerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JACodeScannerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E91D2209030BB004AE89A /* JACodeScannerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACodeScannerDemoTests.m; sourceTree = "<group>"; };
+		967E91D4209030BB004AE89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967E91D9209030BB004AE89A /* JACodeScannerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JACodeScannerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E91DD209030BB004AE89A /* JACodeScannerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACodeScannerDemoUITests.m; sourceTree = "<group>"; };
+		967E91DF209030BB004AE89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19DF79E755ABB074A0D0B49 /* Pods_JACodeScannerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JACodeScannerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7C582585A9EF87220CD104 /* Pods-JACodeScannerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JACodeScannerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JACodeScannerDemo/Pods-JACodeScannerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967E91B3209030B8004AE89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F15DA33F64B07E57C7EDDCE /* Pods_JACodeScannerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E91CB209030BB004AE89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E91D6209030BB004AE89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFD99D533C346F4ED141046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C6C705A34738C757DB4B9D /* libPods-JACodeScannerDemoTests.a */,
+				76D4AD586DE08D2AD492C2B8 /* libPods-JACodeScannerDemoUITests.a */,
+				A19DF79E755ABB074A0D0B49 /* Pods_JACodeScannerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		967E91AD209030B8004AE89A = {
+			isa = PBXGroup;
+			children = (
+				967E91B8209030B8004AE89A /* JACodeScannerDemo */,
+				967E91D1209030BB004AE89A /* JACodeScannerDemoTests */,
+				967E91DC209030BB004AE89A /* JACodeScannerDemoUITests */,
+				967E91B7209030B8004AE89A /* Products */,
+				C3D0143DCD1EAF9BF59E68F3 /* Pods */,
+				0AFD99D533C346F4ED141046 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		967E91B7209030B8004AE89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967E91B6209030B8004AE89A /* JACodeScannerDemo.app */,
+				967E91CE209030BB004AE89A /* JACodeScannerDemoTests.xctest */,
+				967E91D9209030BB004AE89A /* JACodeScannerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967E91B8209030B8004AE89A /* JACodeScannerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				967E91B9209030B8004AE89A /* AppDelegate.h */,
+				967E91BA209030B8004AE89A /* AppDelegate.m */,
+				967E91BC209030B8004AE89A /* ViewController.h */,
+				967E91BD209030B8004AE89A /* ViewController.m */,
+				967E91BF209030B8004AE89A /* Main.storyboard */,
+				967E91C2209030BB004AE89A /* Assets.xcassets */,
+				967E91C4209030BB004AE89A /* LaunchScreen.storyboard */,
+				967E91C7209030BB004AE89A /* Info.plist */,
+				967E91C8209030BB004AE89A /* main.m */,
+			);
+			path = JACodeScannerDemo;
+			sourceTree = "<group>";
+		};
+		967E91D1209030BB004AE89A /* JACodeScannerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				967E91D2209030BB004AE89A /* JACodeScannerDemoTests.m */,
+				967E91D4209030BB004AE89A /* Info.plist */,
+			);
+			path = JACodeScannerDemoTests;
+			sourceTree = "<group>";
+		};
+		967E91DC209030BB004AE89A /* JACodeScannerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				967E91DD209030BB004AE89A /* JACodeScannerDemoUITests.m */,
+				967E91DF209030BB004AE89A /* Info.plist */,
+			);
+			path = JACodeScannerDemoUITests;
+			sourceTree = "<group>";
+		};
+		C3D0143DCD1EAF9BF59E68F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C582585A9EF87220CD104 /* Pods-JACodeScannerDemo.debug.xcconfig */,
+				2DD46DA02BC7826087576D1C /* Pods-JACodeScannerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967E91B5209030B8004AE89A /* JACodeScannerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967E91E2209030BB004AE89A /* Build configuration list for PBXNativeTarget "JACodeScannerDemo" */;
+			buildPhases = (
+				D7C3295077590E66A206755E /* [CP] Check Pods Manifest.lock */,
+				967E91B2209030B8004AE89A /* Sources */,
+				967E91B3209030B8004AE89A /* Frameworks */,
+				967E91B4209030B8004AE89A /* Resources */,
+				3EAB6D624DE588C513873DD9 /* [CP] Embed Pods Frameworks */,
+				0AC56E06885BB464E870C993 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JACodeScannerDemo;
+			productName = JACodeScannerDemo;
+			productReference = 967E91B6209030B8004AE89A /* JACodeScannerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		967E91CD209030BB004AE89A /* JACodeScannerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967E91E5209030BB004AE89A /* Build configuration list for PBXNativeTarget "JACodeScannerDemoTests" */;
+			buildPhases = (
+				967E91CA209030BB004AE89A /* Sources */,
+				967E91CB209030BB004AE89A /* Frameworks */,
+				967E91CC209030BB004AE89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967E91D0209030BB004AE89A /* PBXTargetDependency */,
+			);
+			name = JACodeScannerDemoTests;
+			productName = JACodeScannerDemoTests;
+			productReference = 967E91CE209030BB004AE89A /* JACodeScannerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		967E91D8209030BB004AE89A /* JACodeScannerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967E91E8209030BB004AE89A /* Build configuration list for PBXNativeTarget "JACodeScannerDemoUITests" */;
+			buildPhases = (
+				967E91D5209030BB004AE89A /* Sources */,
+				967E91D6209030BB004AE89A /* Frameworks */,
+				967E91D7209030BB004AE89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967E91DB209030BB004AE89A /* PBXTargetDependency */,
+			);
+			name = JACodeScannerDemoUITests;
+			productName = JACodeScannerDemoUITests;
+			productReference = 967E91D9209030BB004AE89A /* JACodeScannerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967E91AE209030B8004AE89A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Jason;
+				TargetAttributes = {
+					967E91B5209030B8004AE89A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					967E91CD209030BB004AE89A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 967E91B5209030B8004AE89A;
+					};
+					967E91D8209030BB004AE89A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 967E91B5209030B8004AE89A;
+					};
+				};
+			};
+			buildConfigurationList = 967E91B1209030B8004AE89A /* Build configuration list for PBXProject "JACodeScannerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967E91AD209030B8004AE89A;
+			productRefGroup = 967E91B7209030B8004AE89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967E91B5209030B8004AE89A /* JACodeScannerDemo */,
+				967E91CD209030BB004AE89A /* JACodeScannerDemoTests */,
+				967E91D8209030BB004AE89A /* JACodeScannerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967E91B4209030B8004AE89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E91C6209030BB004AE89A /* LaunchScreen.storyboard in Resources */,
+				967E91C3209030BB004AE89A /* Assets.xcassets in Resources */,
+				967E91C1209030B8004AE89A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E91CC209030BB004AE89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E91D7209030BB004AE89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AC56E06885BB464E870C993 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JACodeScannerDemo/Pods-JACodeScannerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EAB6D624DE588C513873DD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JACodeScannerDemo/Pods-JACodeScannerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JACodeScanner/JACodeScanner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JACodeScanner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JACodeScannerDemo/Pods-JACodeScannerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C3295077590E66A206755E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JACodeScannerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967E91B2209030B8004AE89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E91BE209030B8004AE89A /* ViewController.m in Sources */,
+				967E91C9209030BB004AE89A /* main.m in Sources */,
+				967E91BB209030B8004AE89A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E91CA209030BB004AE89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E91D3209030BB004AE89A /* JACodeScannerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967E91D5209030BB004AE89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967E91DE209030BB004AE89A /* JACodeScannerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967E91D0209030BB004AE89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967E91B5209030B8004AE89A /* JACodeScannerDemo */;
+			targetProxy = 967E91CF209030BB004AE89A /* PBXContainerItemProxy */;
+		};
+		967E91DB209030BB004AE89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967E91B5209030B8004AE89A /* JACodeScannerDemo */;
+			targetProxy = 967E91DA209030BB004AE89A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967E91BF209030B8004AE89A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967E91C0209030B8004AE89A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		967E91C4209030BB004AE89A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967E91C5209030BB004AE89A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967E91E0209030BB004AE89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		967E91E1209030BB004AE89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967E91E3209030BB004AE89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7C582585A9EF87220CD104 /* Pods-JACodeScannerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
+				INFOPLIST_FILE = JACodeScannerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JACodeScannerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967E91E4209030BB004AE89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD46DA02BC7826087576D1C /* Pods-JACodeScannerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
+				INFOPLIST_FILE = JACodeScannerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JACodeScannerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		967E91E6209030BB004AE89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
+				INFOPLIST_FILE = JACodeScannerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JACodeScannerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JACodeScannerDemo.app/JACodeScannerDemo";
+			};
+			name = Debug;
+		};
+		967E91E7209030BB004AE89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
+				INFOPLIST_FILE = JACodeScannerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JACodeScannerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JACodeScannerDemo.app/JACodeScannerDemo";
+			};
+			name = Release;
+		};
+		967E91E9209030BB004AE89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
+				INFOPLIST_FILE = JACodeScannerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JACodeScannerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JACodeScannerDemo;
+			};
+			name = Debug;
+		};
+		967E91EA209030BB004AE89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
+				INFOPLIST_FILE = JACodeScannerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JACodeScannerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JACodeScannerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967E91B1209030B8004AE89A /* Build configuration list for PBXProject "JACodeScannerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E91E0209030BB004AE89A /* Debug */,
+				967E91E1209030BB004AE89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967E91E2209030BB004AE89A /* Build configuration list for PBXNativeTarget "JACodeScannerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E91E3209030BB004AE89A /* Debug */,
+				967E91E4209030BB004AE89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967E91E5209030BB004AE89A /* Build configuration list for PBXNativeTarget "JACodeScannerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E91E6209030BB004AE89A /* Debug */,
+				967E91E7209030BB004AE89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967E91E8209030BB004AE89A /* Build configuration list for PBXNativeTarget "JACodeScannerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967E91E9209030BB004AE89A /* Debug */,
+				967E91EA209030BB004AE89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967E91AE209030B8004AE89A /* Project object */;
+}

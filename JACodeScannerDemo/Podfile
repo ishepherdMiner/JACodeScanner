@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+target 'JACodeScannerDemo' do
+  use_frameworks!
+  pod 'JACodeScanner', :path => '../'
+end

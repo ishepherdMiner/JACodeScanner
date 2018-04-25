@@ -1,0 +1,16 @@
+PODS:
+  - JACodeScanner (0.0.1)
+
+DEPENDENCIES:
+  - JACodeScanner (from `../`)
+
+EXTERNAL SOURCES:
+  JACodeScanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JACodeScanner: 646c44b4a318a24e6103fc78005cf0c7c404e701
+
+PODFILE CHECKSUM: 3496e8b6a227b307f15b4d64927077bda4991ed5
+
+COCOAPODS: 1.3.1

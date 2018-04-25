@@ -1,0 +1,6 @@
+framework module JACodeScanner {
+  umbrella header "JACodeScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

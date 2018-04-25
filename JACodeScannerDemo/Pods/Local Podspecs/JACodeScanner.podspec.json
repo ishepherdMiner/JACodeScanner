@@ -1,0 +1,28 @@
+{
+  "name": "JACodeScanner",
+  "version": "0.0.1",
+  "summary": "A scanner framework",
+  "description": "A scanner framework which can recognize qrcode",
+  "homepage": "https://github.com/ishepherdMiner/JACodeScanner",
+  "license": "MIT",
+  "authors": {
+    "Jason": "iJason92@yahoo.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/ishepherdMiner/JACodeScanner.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "JACodeScanner/*.{h,m}",
+  "resources": "JACodeScanner/**/*.bundle",
+  "public_header_files": "JACodeScanner/JACodeScanner.h",
+  "frameworks": [
+    "UIKit",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "module_name": "JACodeScanner"
+}
